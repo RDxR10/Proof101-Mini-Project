@@ -12,7 +12,7 @@ This project formally proves that in a 2-leaf Merkle tree, any valid signature c
 
 ### `BitVec 256` instead of `Nat`
 
-The proof was previously attempted using Cantor pairing over `Nat`. But it was rejected due to its bijectivity and fully invertible nature. Instead, `BitVec 256` was used to model fixed-size hash outputs. So `H` remains uninterpreted (and thus `noncomputable`).
+The proof was previously explored using Cantor pairing over `Nat`. But it was rejected due to its bijectivity and fully invertible nature. Instead, `BitVec 256` was used to model fixed-size hash outputs. So `H` remains uninterpreted (and thus `noncomputable`).
 
 ### `HashModel` typeclass instead of loose axioms
 
