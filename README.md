@@ -6,6 +6,10 @@
 
 This project formally proves that in a 2-leaf Merkle tree, any valid signature commits to exactly one leaf public key, determined by its index bit. It also shows that a signature cannot simultaneously satisfy both leaf positions, and that mismatched (forged) signatures are rejected.
 
+<div align = "center">
+<img width="672" height="400" alt="IMG_20260420_163627" src="https://github.com/user-attachments/assets/d0661c7a-2181-4c6b-8dc3-487b681146d2" />
+</div>
+
 ---
 
 ## Design Choices
